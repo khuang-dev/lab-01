@@ -1,5 +1,12 @@
-.html {
-}
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+  }
+  
+  
 .body {
     font-size: 16px;
 }
@@ -52,8 +59,8 @@
     font-family: 'Abel', sans-serif;
     font-size: 3rem;
     font-weight: bolder;
-    padding-top: 200px;
-    padding-bottom: 400px;
+    padding-top: 300px;
+    padding-bottom: 275px;
 }
 .continueicon {
     background-color: white;
@@ -77,6 +84,28 @@
 .show {
     display: block;
 }
+.contentcontainer {
+    border: 2px black solid;
+    margin: 6vh 6vw;
+    padding: 4vh 3vw;
+}
+.contentheader {
+    font-family: 'Abel', sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-left: 3vw;
+    padding-bottom: 3vh;
+    text-decoration: underline;
+
+}
+.content {
+    margin: 0 3vw;
+    font-size: 1.2rem;
+    display: block;
+    font-family: 'Abel', san-serif;
+}
+
+
 @media screen and (min-width: 600px) {
 
 .hamburgerheader {
