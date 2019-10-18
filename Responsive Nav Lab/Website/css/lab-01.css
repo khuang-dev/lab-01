@@ -1,0 +1,119 @@
+.html {
+}
+.body {
+    font-size: 16px;
+}
+.hamburgerheader {
+    text-align: center;
+    background-color: black;
+    height: 80px;
+}
+#hamburgericon {
+    display: inline-block;
+    width: 100%;
+    color: white;
+    font-size: 35px;
+    padding: 20px 0;
+}
+#hamburgericon:hover {
+    color: rgb(69, 252, 243);
+    font-size: 40px;
+    transition: 200ms;
+}
+.navcontainer {
+    position: relative;
+}
+.navigation {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.15rem;
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+.navlink a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+    border: solid 1px rgb(173, 173, 173);
+    border-top: none;
+}
+.navlink a:hover {
+    color: white;
+    background-color: black;
+    border: none;
+    transition: 600ms;
+}
+.bodycontent {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-top: 200px;
+    padding-bottom: 400px;
+}
+.continueicon {
+    background-color: white;
+    text-align: center;
+}
+#arrowdownicon{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    padding-top: 45px;
+    padding-bottom: 15px;
+    display:inline-block;
+    width: 100%;
+}
+#arrowdownicon:hover {
+    color: rgb(69, 252, 243);
+    font-size: 55px;
+    transition: 500ms;
+    padding-top: 40px;
+}
+.show {
+    display: block;
+}
+@media screen and (min-width: 600px) {
+
+.hamburgerheader {
+    height: 0px;
+}
+#hamburgericon {
+    display: none;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.navlink {
+    width: 100%;
+}
+.navlink a {
+    border: solid 2px black;
+    border-left: none;
+    border-right: none;
+    padding: 3vh 0;
+    font-size: 1.4rem;
+}
+.navlink a:hover {
+    border: solid 2px black;
+    font-size: 2.5rem;
+    width: 98%;
+}
+.bodycontent {
+    font-size: 4.5rem;
+}
+#arrowdownicon {
+    padding-top: 55px;
+    padding-bottom: 10px;
+    font-size: 4rem;
+}
+#arrowdownicon:hover {
+    font-size: 5rem;
+}
+}
